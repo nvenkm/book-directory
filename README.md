@@ -16,13 +16,13 @@ Follow these steps to set up the Book Directory app on your local machine:
 
     Change your working directory to the project folder:
 
-    cd book-directory
+        cd book-directory
 
 3.  **Install Dependencies**
 
     Install the required Node.js packages by running the following command
 
-    npm install
+        npm install
 
 4.  **Environment Variables**
 
@@ -39,8 +39,7 @@ Follow these steps to set up the Book Directory app on your local machine:
 Now that you've set up the app, you can run it using the following commands:
 
 - **Development Mode:** This mode uses `nodemon` for automatic server restart during code changes.
-    
-   npm run dev
+  npm run dev
 - **Production Mode:** Use this command to start the app in production mode.
 
 The app should be up and running locally, and you can access it at `http://localhost:PORT` in your web browser.
