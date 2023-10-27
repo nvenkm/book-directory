@@ -62,6 +62,10 @@ The Book Directory app relies on the following Node.js packages:
 
 Make sure you have these dependencies installed as described in the setup section.
 
+## Read the API documentation here
+
+[API docs](./api-doc.md)
+
 ## 🌟 Stay Inspired
 
 Keep coding, stay curious, and make things happen! Your potential is limitless. 💻✨
