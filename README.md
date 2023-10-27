@@ -39,8 +39,12 @@ Follow these steps to set up the Book Directory app on your local machine:
 Now that you've set up the app, you can run it using the following commands:
 
 - **Development Mode:** This mode uses `nodemon` for automatic server restart during code changes.
-  npm run dev
+
+        npm run dev
+
 - **Production Mode:** Use this command to start the app in production mode.
+
+        npm start
 
 The app should be up and running locally, and you can access it at `http://localhost:PORT` in your web browser.
 
