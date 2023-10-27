@@ -1,0 +1,51 @@
+GET http://localhost:3001/books?page=1&limit=5
+
+###
+
+POST http://localhost:3001/books
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1M2E4MDIyZmU4YjQ0ZmJmZTBlOGQ4MSIsImlhdCI6MTY5ODMzOTQ4OX0.UNVHjk9FrT-Y0le3eM6wiuLDgtl9bv9IOlLh84W-EZc
+
+{
+    "name":"Book  14",
+    "author":"Author 14",
+    "description":"aur sample descriptoin"
+}
+
+###
+
+GET http://localhost:3001/books/653a273a0t210f86841acf94
+
+###
+PUT http://localhost:3001/books/653a275202170f86841acf9a
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1M2E4MDIyZmU4YjQ0ZmJmZTBlOGQ4MSIsImlhdCI6MTY5ODMzOTQ4OX0.UNVHjk9FrT-Y0le3eM6wiuLDgtl9bv9IOlLh84W-EZc
+
+
+{
+"author":"Author new Author"
+}
+
+###
+DELETE http://localhost:3001/books/653a275f02170f86841acf9c
+
+###
+
+POST http://localhost:3001/auth/register
+Content-Type: application/json
+
+{
+    "name":"Sahil",
+    "email":"sahil@gmail.com",
+    "password":"sahil"
+} 
+
+###
+
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+    "email":"sahil@gmail.com",
+    "password":"sahil"
+} 
